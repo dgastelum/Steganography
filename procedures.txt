@@ -1,0 +1,27 @@
+insert secret message
+python Main.py "set" "This is a hidden message to demonstrate Steganography for CSC153 group 5 project. Group Members: Danny Gastelum, CJ Angelina Torres, Graciela Meza" "img\S
+unset.png" "img\ModSunset.png"
+
+get secret message
+python Main.py "get" "img\ModSunset.png"
+
+compare images
+	python Main.py "compare" "img\Sunset.png" "img\ModSunset.png" "This is a hidden message to demonstrate Steganography for CSC153 group 5
+ project. Group Members: Danny Gastelum, CJ Angelina Torres, Graciela Meza"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
